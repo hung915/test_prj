@@ -11,3 +11,11 @@
 `flask db migrate -m "..."`
 
 `flask db upgrade` (perform update table)
+
+db.relationship (expects a class name)
+
+db.ForeignKey (expects table name)
+
+backref (back reference name | what ever name)
+
+Address.query.filter(and_(Address.person_id==1, Address.email=='def'))
